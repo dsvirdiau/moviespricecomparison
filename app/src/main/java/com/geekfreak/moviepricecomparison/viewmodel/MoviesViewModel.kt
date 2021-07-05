@@ -76,7 +76,7 @@ class MoviesViewModel(app: Application, private val moviesRepository: MoviesRepo
       }
    }
 
-   private fun combineBoth( filmWorldMovies: Movies, cinemaWorldMovies: Movies)
+   private fun combineBoth(filmWorldMovies: Movies, cinemaWorldMovies: Movies)
    : List<MovieWithBothPrices> {
          val movieWithBothPrices = ArrayList<MovieWithBothPrices>()
          filmWorldMovies.movies.forEach { filmMovie ->
